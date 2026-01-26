@@ -2,6 +2,8 @@
 
 Code to reproduce **“Taming the Heavy Tail: Age-Optimal Preemption”**  
 📄 **Paper (PDF)**:[https://arxiv.org/pdf/2601.16624](https://arxiv.org/pdf/2601.16624)
+
+
 🌐 **Project Page:**: [https://yigiti.github.io/Preemption/](https://yigiti.github.io/Preemption/)
 ![System Model](systemmodelv4_01.png)
 
@@ -15,6 +17,7 @@ Run the MATLAB scripts below to generate the main simulation outputs:
 - `lognormal.m` — experiments under log-normal service times
 
 ## Citation
+If you find this paper helpful, pls cite this paper
 ```bibtex
 @article{aimin2026taming,
   title={Taming the Heavy Tail: Age-Optimal Preemption},
