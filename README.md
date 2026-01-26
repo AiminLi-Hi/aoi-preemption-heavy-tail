@@ -16,8 +16,11 @@ Run the MATLAB scripts below to generate the main simulation outputs:
 - `Paretov2.m` — experiments under Pareto service times  
 - `lognormal.m` — experiments under log-normal service times
 
+## Contact
+If you encounter any issues with reproduction, feel free to reach out to me at hitliaimin@163.com.
+
 ## Citation
-If you find this paper helpful, pls cite this paper
+You may find this paper helpful
 ```bibtex
 @article{aimin2026taming,
   title={Taming the Heavy Tail: Age-Optimal Preemption},
