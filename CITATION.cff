@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite our paper."
+title: "aoi-preemption-heavy-tail: Code to reproduce 'Taming the Heavy Tail: Age-Optimal Preemption'"
+type: software
+
+authors:
+  - family-names: Li
+    given-names: Aimin
+  - family-names: İnce
+    given-names: Yiğit
+  - family-names: Uysal
+    given-names: Elif
+
+repository-code: "https://github.com/AiminLi-Hi/aoi-preemption-heavy-tail"
+url: "https://github.com/AiminLi-Hi/aoi-preemption-heavy-tail"
+
+
+preferred-citation:
+  type: article
+  title: "Taming the Heavy Tail: Age-Optimal Preemption"
+  authors:
+    - family-names: Li
+      given-names: Aimin
+    - family-names: İnce
+      given-names: Yiğit
+    - family-names: Uysal
+      given-names: Elif
+  year: 2026
+  publisher: arXiv
+  journal: "arXiv preprint"
+  url: "https://arxiv.org/abs/2601.16624"
+  # If you later update to the final publication, add DOI below and keep the arXiv URL as well.
+  # doi: "https://arxiv.org/abs/2601.16624"
+
+keywords:
+  - Age of Information
+  - preemption
+  - impulse control
+  - PDMP
+  - optimal stopping
+  - heavy-tailed delays
+  - Pareto
+  - log-normal
+  - policy iteration
+
+license: "MIT"
