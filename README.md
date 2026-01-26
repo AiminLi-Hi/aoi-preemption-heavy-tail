@@ -20,7 +20,7 @@ Run the MATLAB scripts below to generate the main simulation outputs:
 If you encounter any issues with reproduction, feel free to reach out to me at hitliaimin@163.com.
 
 ## Citation
-You may find this paper helpful
+You may cite this paper if it helps your research:
 ```bibtex
 @article{aimin2026taming,
   title={Taming the Heavy Tail: Age-Optimal Preemption},
