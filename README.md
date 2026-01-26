@@ -1,30 +1,55 @@
 # aoi-preemption-heavy-tail
 
-Code to reproduce **“Taming the Heavy Tail: Age-Optimal Preemption”**  
-📄 **Paper (PDF)**:[https://arxiv.org/pdf/2601.16624](https://arxiv.org/pdf/2601.16624)
+Code to reproduce **“Taming the Heavy Tail: Age-Optimal Preemption”**.
 
+- 📄 **Paper (PDF):** https://arxiv.org/pdf/2601.16624  
+- 🌐 **Project Page:** https://yigiti.github.io/Preemption/
 
-🌐 **Project Page:**: [https://yigiti.github.io/Preemption/](https://yigiti.github.io/Preemption/)
 ![System Model](systemmodelv4_01.png)
 
-Continuous-time joint sampling & preemption via **PDMP impulse control**; **integral ACOE + optimal stopping**; fast **policy iteration** for heavy-tailed delays (Pareto / log-normal).
+## Overview
 
+This repository provides MATLAB code for reproducing the main numerical results in:
+
+> **Aimin Li, Yiğit İnce, and Elif Uysal**  
+> *Taming the Heavy Tail: Age-Optimal Preemption*, arXiv:2601.16624, 2026.
+
+We study a continuous-time joint sampling & preemption problem under general (possibly heavy-tailed) service-time distributions. The system is formulated as a **PDMP impulse control** problem. By using an **integral average-cost dynamic programming principle**, the resulting coupled ACOEs reduce the busy-phase preemption decision to an **optimal stopping** problem, enabling fast **average-cost policy iteration** tailored to heavy tails (Pareto/Lomax and log-normal).
+
+## Key Features
+
+- Continuous-time joint **sampling + preemption** with explicit sampling/preemption penalties
+- **Integral ACOE** formulation (avoids smoothness assumptions of average-cost HJB–QVI)
+- Busy-phase invariance ⇒ **one-dimensional boundary** ⇒ **optimal-stopping preemption**
+- Efficient **policy iteration** designed for heavy-tailed delays
+- Experiments under **Pareto (Lomax)** and **log-normal** service times
 
 ## Quickstart
+
 Run the MATLAB scripts below to generate the main simulation outputs:
 
-- `Paretov2.m` — experiments under Pareto service times  
-- `lognormal.m` — experiments under log-normal service times
+- `Paretov2.m` — experiments under Pareto (Lomax) service times  
+- `lognormal.m` — experiments under log-normal service times  
+
+Tip: For reproducibility, keep the default parameter settings unless you are intentionally sweeping a specific regime.
+
+
+Additional helper functions (if included) are called by the main scripts; please keep relative paths unchanged.
 
 ## Contact
-If you encounter any issues with reproduction, feel free to reach out to me at hitliaimin@163.com.
+
+If you encounter any issues with reproduction, feel free to reach out:
+
+- **Email:** hitliaimin@163.com
 
 ## Citation
-You may cite this paper if it helps your research:
+
+If you find this code useful, please cite:
+
 ```bibtex
 @article{aimin2026taming,
   title={Taming the Heavy Tail: Age-Optimal Preemption},
-  author={Aimin Li, Yiğit İnce, and Elif Uysal},
+  author={Aimin Li and Yi{\u{g}}it {\.I}nce and Elif Uysal},
   journal={arXiv preprint arXiv:2601.16624},
   year={2026}
 }
