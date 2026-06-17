@@ -9,10 +9,10 @@ Code to reproduce **“Taming the Heavy Tail: Age-Optimal Preemption”**.
 
 ## Overview
 
-This repository provides MATLAB code for reproducing the main numerical results in:
+This repository provides MATLAB code for reproducing the main numerical results accepted by IEEE ISIT 2026:
 
 > **Aimin Li, Yiğit İnce, and Elif Uysal**  
-> *Taming the Heavy Tail: Age-Optimal Preemption*, arXiv:2601.16624, 2026.
+> *Taming the Heavy Tail: Age-Optimal Preemption*, Proc. IEEE ISIT, 2026.
 
 We study a continuous-time joint sampling & preemption problem under general (possibly heavy-tailed) service-time distributions. The system is formulated as a **PDMP impulse control** problem. By using an **integral average-cost dynamic programming principle**, the resulting coupled ACOEs reduce the busy-phase preemption decision to an **optimal stopping** problem, enabling fast **average-cost policy iteration** tailored to heavy tails (Pareto/Lomax and log-normal).
 
@@ -50,6 +50,6 @@ If you find this code useful, please cite:
 @article{aimin2026taming,
   title={Taming the Heavy Tail: Age-Optimal Preemption},
   author={Aimin Li and Yi{\u{g}}it {\.I}nce and Elif Uysal},
-  journal={arXiv preprint arXiv:2601.16624},
+  journal={Proc. IEEE ISIT},
   year={2026}
 }
