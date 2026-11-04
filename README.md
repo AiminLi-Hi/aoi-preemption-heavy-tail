@@ -2,6 +2,7 @@
 
 [![ISIT 2026](https://img.shields.io/badge/IEEE%20ISIT-2026-00629B)](https://doi.org/10.1109/ISIT62367.2026.11653616)
 [![arXiv](https://img.shields.io/badge/arXiv-2601.16624-b31b1b)](https://arxiv.org/abs/2601.16624)
+[![PyPI](https://img.shields.io/pypi/v/tailor-aoi?color=2a6f97)](https://pypi.org/project/tailor-aoi/)
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AiminLi-Hi/aoi-preemption-heavy-tail/blob/main/python/examples/quickstart.ipynb)
 [![Project page](https://img.shields.io/badge/project-page-2a6f97)](https://yigiti.github.io/Preemption/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
@@ -24,7 +25,7 @@ Without preemption, delay variability hurts information freshness. With optimal 
 ## Install and use in three lines (Python)
 
 ```bash
-pip install "tailor-aoi[plot] @ git+https://github.com/AiminLi-Hi/aoi-preemption-heavy-tail.git#subdirectory=python"
+pip install tailor-aoi            # add [plot] for the plotting helpers
 ```
 
 ```python
