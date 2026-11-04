@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tailor-aoi"
+version = "0.1.0"
+description = "Age-optimal sampling and preemption under heavy-tailed delays (TAILOR, IEEE ISIT 2026)"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+  { name = "Aimin Li" },
+  { name = "Yiğit İnce" },
+  { name = "Elif Uysal" },
+]
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.22", "scipy>=1.8"]
+keywords = [
+  "age of information", "AoI", "preemption", "heavy-tailed delay", "optimal stopping",
+  "impulse control", "queueing", "status update", "information freshness", "policy iteration",
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Scientific/Engineering :: Mathematics",
+  "Topic :: System :: Networking",
+  "Intended Audience :: Science/Research",
+]
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.5"]
+test = ["pytest>=7"]
+
+[project.urls]
+Paper = "https://doi.org/10.1109/ISIT62367.2026.11653616"
+arXiv = "https://arxiv.org/abs/2601.16624"
+Code = "https://github.com/AiminLi-Hi/aoi-preemption-heavy-tail"
+"Project page" = "https://yigiti.github.io/Preemption/"
+
+[tool.setuptools.packages.find]
+where = ["src"]
