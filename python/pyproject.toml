@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=64", "wheel"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -7,7 +7,8 @@ name = "tailor-aoi"
 version = "0.1.0"
 description = "Age-optimal sampling and preemption under heavy-tailed delays (TAILOR, IEEE ISIT 2026)"
 readme = "README.md"
-license = { text = "MIT" }
+license = "MIT"
+license-files = ["LICENSE"]
 authors = [
   { name = "Aimin Li" },
   { name = "Yiğit İnce" },
@@ -21,7 +22,6 @@ keywords = [
 ]
 classifiers = [
   "Programming Language :: Python :: 3",
-  "License :: OSI Approved :: MIT License",
   "Topic :: Scientific/Engineering :: Mathematics",
   "Topic :: System :: Networking",
   "Intended Audience :: Science/Research",
